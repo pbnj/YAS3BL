@@ -1,6 +1,6 @@
 # YAS3BL (Yet Another S3 Bucket Leak)
 
-> Enumerating all the AWS S3 bucket leaks that have been discovered to date.
+> 🔓 Enumerating all the AWS S3 bucket leaks that have been discovered to date.
 
 | Entity/Contractor | Link | Count Exposed | Notes|
 | - | - | - | - |
