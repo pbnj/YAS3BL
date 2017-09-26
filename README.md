@@ -2,7 +2,7 @@
 
 > 🔓 Enumerating all the AWS S3 bucket leaks that have been discovered to date.
 
-| Entity/Contractor | Link | Records Exposed | Notes|
+| Company | Link | Records Exposed | Notes |
 | - | - | - | - |
 | Alliance Direct Lending Corporation | [🔗](https://threatpost.com/auto-lender-exposes-loan-data-for-up-to-1-million-applicants/125216/) | 1 million | names, addresses, credit scores and partial Social Security numbers. |
 | DeepRoots Analytics | [🔗](https://www.upguard.com/breaches/the-rnc-files) | 200 million | Registered voter records exposed, adding up to ~ 1.1 Terabytes of data. |
