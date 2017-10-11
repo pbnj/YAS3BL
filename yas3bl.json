@@ -61,7 +61,7 @@
       "url": "https://mackeepersecurity.com/post/global-communication-software-left-massive-amount-of-data-online"
     },
     {
-      "count": "100MB",
+      "count": "100 MB",
       "data": "Data from internal Verizon Wireless system (DVS), 129 Outlook messages, logs, server names & info, admin usernames & passwords",
       "organization": "Verizon",
       "url": "https://mackeepersecurity.com/post/verizon-wireless-employee-exposed-confidential-data-online"
@@ -83,6 +83,12 @@
       "data": "Fans names, physical addresses, email addresses, earnings, ethnicity, children’s age ranges, birthdates and additional personally identifiable information",
       "organization": "WWE",
       "url": "https://threatpost.com/leaky-wwe-database-exposes-personal-data-of-3m-wrestling-fans/126710/"
+    },
+    {
+      "count": "137+ GB",
+      "data": "4 S3 buckets exposing secret API data, authentication credentials, 40,000 plaintext passwords, credentials for GCP and Azure accounts, SSL certificates, private decryption keys, production VPN keys for internal/private networks, database dumps, user IP addresses, JSESSION IDs.",
+      "organization": "Accenture",
+      "url": "https://www.upguard.com/breaches/cloud-leak-accenture"
     }
   ]
 }
