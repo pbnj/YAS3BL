@@ -7,6 +7,8 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"sort"
+	"strings"
 )
 
 // Leak sturct represents a slice of bucket leaks in yas3bl.json file
@@ -42,6 +44,10 @@ func main() {
 	if err != nil {
 		log.Fatalf("could not unmarshal JSON: %+v\n", err)
 	}
+
+	sort.Slice(bucketsLeaked.Leaks, func(i, j int) bool {
+		return strings.ToUpper(bucketsLeaked.Leaks[i].Organization) < strings.ToUpper(bucketsLeaked.Leaks[j].Organization)
+	})
 
 	f, err := os.Create("README.md")
 	if err != nil {
