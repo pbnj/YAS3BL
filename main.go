@@ -31,7 +31,7 @@ func main() {
 
 | Company | Link | Records Exposed | Data |
 | ------- | ---- | --------------- | ---- |
-{{range .Leaks}}| {{.Organization}} | [🔗]({{.URL}}) | {{.Count}} | {{.Data}} |
+{{range .Leaks}}| <h4>{{.Organization}}</h4> | [🔗]({{.URL}}) | {{.Count}} | {{.Data}} |
 {{end}}
 `
 	jsonBytes, err := ioutil.ReadFile("yas3bl.json")
