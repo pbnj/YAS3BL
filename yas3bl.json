@@ -89,6 +89,12 @@
       "data": "4 S3 buckets exposing secret API data, authentication credentials, 40,000 plaintext passwords, credentials for GCP and Azure accounts, SSL certificates, private decryption keys, production VPN keys for internal/private networks, database dumps, user IP addresses, JSESSION IDs.",
       "organization": "Accenture",
       "url": "https://www.upguard.com/breaches/cloud-leak-accenture"
+    },
+    {
+      "count": "316,363",
+      "data": "47.5 GB PDF medical records containing weekly blood test results, patient names, addresses, and phone numbers. Development server backups. Doctor's names, case management notes, and additional client information.",
+      "organization": "Patient Home Monitoring",
+      "url": "https://mackeepersecurity.com/post/patient-home-monitoring-service-leaks-private-medical-data-online"
     }
   ]
 }
