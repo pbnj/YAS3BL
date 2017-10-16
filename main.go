@@ -115,7 +115,7 @@ func main() {
 	}
 	w.Flush()
 
-	hf, err := os.Create("docs/index.html")
+	hf, err := os.Create("docs/YAS3BL.html")
 	if err != nil {
 		log.Fatalf("could not create index.html file: %+v\n", err)
 	}
