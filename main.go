@@ -46,8 +46,8 @@ const htmlTmpl = `
 <style>
 td {
 	font-family: monospace;
-	font-size: 1.2em;
 }
+
 a {
 	text-decoration: none;
 }
