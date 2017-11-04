@@ -95,6 +95,12 @@
       "data": "47.5 GB PDF medical records containing weekly blood test results, patient names, addresses, and phone numbers. Development server backups. Doctor's names, case management notes, and additional client information.",
       "organization": "Patient Home Monitoring",
       "url": "https://mackeepersecurity.com/post/patient-home-monitoring-service-leaks-private-medical-data-online"
+    },
+    {
+        "count": "50,000",
+        "data": "Personal data of Australian employees of several government agencies, banks, and a utility company, including full names, passwords, IDs, phone numbers, email addresses, credit card numbers, salaries and expenses.",
+        "organization": "AMP",
+        "url": "https://www.itnews.com.au/news/contractor-breach-exposes-50k-aussie-govt-bank-staff-records-476650"
     }
   ]
 }
