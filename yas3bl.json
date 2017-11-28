@@ -1,6 +1,12 @@
 {
     "yas3bl": [
         {
+	    "count": "47 files",
+	    "data": "Highly sensitive INSCOM data. Some data was 'NOFORN' classified, indicating high sensitivity that cannot be shared with foreign allies",
+	    "organization": "NSA",
+	    "url": "https://www.upguard.com/breaches/cloud-leak-inscom"
+        },
+        {
             "count": "1.8 billion",
             "data": "Three (3) S3 buckets containing 1.8 billion posts of scraped internet content over the last 8 years.",
             "organization": "Department of Defense",
