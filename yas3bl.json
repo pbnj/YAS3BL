@@ -1,130 +1,157 @@
-{
-    "yas3bl": [
-        {
-            "count": "123 million",
-            "data": "Data sets belonging to Experian and US Census Bureau, containing personal details of 198 million American voters and 123 million American household PII data such as home addresses, contact information, morgage ownership, financial histories, and purchasing behaviors.",
-            "organization": "Alteryx",
-            "url": "https://www.upguard.com/breaches/cloud-leak-alteryx"
-        },
-        {
-            "count": "111 GB",
-            "data": "Internal personal and financial data of tens of thousands of customers.",
-            "organization": "National Credit Federation",
-            "url": "https://www.upguard.com/breaches/credit-crunch-national-credit-federation"
-        },
-        {
-            "count": "47 files",
-            "data": "Highly sensitive INSCOM data. Some data was 'NOFORN' classified, indicating high sensitivity that cannot be shared with foreign allies",
-            "organization": "NSA",
-            "url": "https://www.upguard.com/breaches/cloud-leak-inscom"
-        },
-        {
-            "count": "1.8 billion",
-            "data": "Three (3) S3 buckets containing 1.8 billion posts of scraped internet content over the last 8 years.",
-            "organization": "Department of Defense",
-            "url": "https://www.upguard.com/breaches/cloud-leak-centcom"
-        },
-        {
-            "count": "1 million",
-            "data": "Names, addresses, credit scores and partial Social Security numbers",
-            "organization": "Alliance Direct Lending Corporation",
-            "url": "https://threatpost.com/auto-lender-exposes-loan-data-for-up-to-1-million-applicants/125216/"
-        },
-        {
-            "count": "200 million",
-            "data": "1.1 Terabytes worth of data on registered voters",
-            "organization": "DeepRoot Analytics",
-            "url": "https://www.upguard.com/breaches/the-rnc-files"
-        },
-        {
-            "count": "2.2 - 4 million",
-            "data": "Names, addresses, account information, email addresses, and last four digits of credit card numbers of millions of subscribers to Dow Jones publications",
-            "organization": "Dow Jones",
-            "url": "https://www.upguard.com/breaches/cloud-leak-dow-jones"
-        },
-        {
-            "count": "1.8 million",
-            "data": "Chicago voter names, addresses, date-of-births, partial SSNs, Driver Licenses, and state ID numbers",
-            "organization": "ES&S",
-            "url": "https://www.upguard.com/breaches/cloud-leak-chicago-voters"
-        },
-        {
-            "count": "38,000",
-            "data": "Credit Card numbers, expiration dates, CVV codes",
-            "organization": "Groupize",
-            "url": "https://mackeepersecurity.com/post/online-hotel-booking-service-allegedly-exposed-sensitive-data"
-        },
-        {
-            "count": "Undisclosed",
-            "data": "Top Secret data from DoD, Pentagon, and National Geospatial Intelligence Agency (NGA), SSH keys, credentials granting access to data center Operating System",
-            "organization": "Booz Allen Hamilton",
-            "url": "https://www.upguard.com/breaches/spy-games"
-        },
-        {
-            "count": "93.4 million",
-            "data": "Mexican voter registration data",
-            "organization": "Mexico's Electoral Authority (INE)",
-            "url": "http://splinternews.com/a-massive-data-breach-exposed-personal-info-for-93-4-mi-1793856429"
-        },
-        {
-            "count": "540,642",
-            "data": "Tracking unit information including usernames, passwords, emails, Vehicle Identification Numbers, license plate numbers, IMEI numbers of GPS devices, specific location where the tracking units were hidden, information on customers and 427 dealerships, 116 GB of hourly backups, 8.5 GB of daily backups from 2017, and 339 log documents",
-            "organization": "SVR Tracking",
-            "url": "https://mackeepersecurity.com/post/auto-tracking-company-leaks-hundreds-of-thousands-of-records-online"
-        },
-        {
-            "count": "9,402",
-            "data": "Resumes of Top Secret US military veterans names, addresses, phones, emails, Driver License numbers, passport numbers, partial SSNs",
-            "organization": "TigerSwan",
-            "url": "https://www.upguard.com/breaches/cloud-leak-tigerswan"
-        },
-        {
-            "count": "4 million",
-            "data": "600 GB worth of data including usernames, emails addresses, MAC addresses, device serial numbers, and financial transaction information",
-            "organization": "Time Warner/BroadSoft",
-            "url": "https://mackeepersecurity.com/post/global-communication-software-left-massive-amount-of-data-online"
-        },
-        {
-            "count": "100 MB",
-            "data": "Data from internal Verizon Wireless system (DVS), 129 Outlook messages, logs, server names & info, admin usernames & passwords",
-            "organization": "Verizon",
-            "url": "https://mackeepersecurity.com/post/verizon-wireless-employee-exposed-confidential-data-online"
-        },
-        {
-            "count": "14 million",
-            "data": "Verizon customer names, addresses, account details, and Personal Identification Numbers (PIN)",
-            "organization": "Verizon",
-            "url": "https://www.upguard.com/breaches/verizon-cloud-leak"
-        },
-        {
-            "count": "72 files",
-            "data": "Encrypted compressed archives containing backup of company's IT infrastructure and private GPG keys used to encrypt the compressed archives",
-            "organization": "Viacom",
-            "url": "https://www.theregister.co.uk/2017/09/19/viacom_exposure_in_aws3_bucket_blunder/"
-        },
-        {
-            "count": "3,065,805",
-            "data": "Fans names, physical addresses, email addresses, earnings, ethnicity, children\u2019s age ranges, birthdates and additional personally identifiable information",
-            "organization": "WWE",
-            "url": "https://threatpost.com/leaky-wwe-database-exposes-personal-data-of-3m-wrestling-fans/126710/"
-        },
-        {
-            "count": "137+ GB",
-            "data": "4 S3 buckets exposing secret API data, authentication credentials, 40,000 plaintext passwords, credentials for GCP and Azure accounts, SSL certificates, private decryption keys, production VPN keys for internal/private networks, database dumps, user IP addresses, JSESSION IDs.",
-            "organization": "Accenture",
-            "url": "https://www.upguard.com/breaches/cloud-leak-accenture"
-        },
-        {
-            "count": "316,363",
-            "data": "47.5 GB PDF medical records containing weekly blood test results, patient names, addresses, and phone numbers. Development server backups. Doctor's names, case management notes, and additional client information.",
-            "organization": "Patient Home Monitoring",
-            "url": "https://mackeepersecurity.com/post/patient-home-monitoring-service-leaks-private-medical-data-online"
-        },
-        {
-            "count": "50,000",
-            "data": "Personal data of Australian employees of several government agencies, banks, and a utility company, including full names, passwords, IDs, phone numbers, email addresses, credit card numbers, salaries and expenses.",
-            "organization": "Australian Broadcasting Company",
-            "url": "https://mackeepersecurity.com/post/australian-broadcasting-corporation-exposed-sensitive-data-online"
-        }
-    ]
-}
+[
+  {
+    "count": "123 million",
+    "data":
+      "Data sets belonging to Experian and US Census Bureau, containing personal details of 198 million American voters and 123 million American household PII data such as home addresses, contact information, morgage ownership, financial histories, and purchasing behaviors.",
+    "organization": "Alteryx",
+    "url": "https://www.upguard.com/breaches/cloud-leak-alteryx"
+  },
+  {
+    "count": "111 GB",
+    "data":
+      "Internal personal and financial data of tens of thousands of customers.",
+    "organization": "National Credit Federation",
+    "url":
+      "https://www.upguard.com/breaches/credit-crunch-national-credit-federation"
+  },
+  {
+    "count": "47 files",
+    "data":
+      "Highly sensitive INSCOM data. Some data was 'NOFORN' classified, indicating high sensitivity that cannot be shared with foreign allies",
+    "organization": "NSA",
+    "url": "https://www.upguard.com/breaches/cloud-leak-inscom"
+  },
+  {
+    "count": "1.8 billion",
+    "data":
+      "Three (3) S3 buckets containing 1.8 billion posts of scraped internet content over the last 8 years.",
+    "organization": "Department of Defense",
+    "url": "https://www.upguard.com/breaches/cloud-leak-centcom"
+  },
+  {
+    "count": "1 million",
+    "data":
+      "Names, addresses, credit scores and partial Social Security numbers",
+    "organization": "Alliance Direct Lending Corporation",
+    "url":
+      "https://threatpost.com/auto-lender-exposes-loan-data-for-up-to-1-million-applicants/125216/"
+  },
+  {
+    "count": "200 million",
+    "data": "1.1 Terabytes worth of data on registered voters",
+    "organization": "DeepRoot Analytics",
+    "url": "https://www.upguard.com/breaches/the-rnc-files"
+  },
+  {
+    "count": "2.2 - 4 million",
+    "data":
+      "Names, addresses, account information, email addresses, and last four digits of credit card numbers of millions of subscribers to Dow Jones publications",
+    "organization": "Dow Jones",
+    "url": "https://www.upguard.com/breaches/cloud-leak-dow-jones"
+  },
+  {
+    "count": "1.8 million",
+    "data":
+      "Chicago voter names, addresses, date-of-births, partial SSNs, Driver Licenses, and state ID numbers",
+    "organization": "ES&S",
+    "url": "https://www.upguard.com/breaches/cloud-leak-chicago-voters"
+  },
+  {
+    "count": "38,000",
+    "data": "Credit Card numbers, expiration dates, CVV codes",
+    "organization": "Groupize",
+    "url":
+      "https://mackeepersecurity.com/post/online-hotel-booking-service-allegedly-exposed-sensitive-data"
+  },
+  {
+    "count": "Undisclosed",
+    "data":
+      "Top Secret data from DoD, Pentagon, and National Geospatial Intelligence Agency (NGA), SSH keys, credentials granting access to data center Operating System",
+    "organization": "Booz Allen Hamilton",
+    "url": "https://www.upguard.com/breaches/spy-games"
+  },
+  {
+    "count": "93.4 million",
+    "data": "Mexican voter registration data",
+    "organization": "Mexico's Electoral Authority (INE)",
+    "url":
+      "http://splinternews.com/a-massive-data-breach-exposed-personal-info-for-93-4-mi-1793856429"
+  },
+  {
+    "count": "540,642",
+    "data":
+      "Tracking unit information including usernames, passwords, emails, Vehicle Identification Numbers, license plate numbers, IMEI numbers of GPS devices, specific location where the tracking units were hidden, information on customers and 427 dealerships, 116 GB of hourly backups, 8.5 GB of daily backups from 2017, and 339 log documents",
+    "organization": "SVR Tracking",
+    "url":
+      "https://mackeepersecurity.com/post/auto-tracking-company-leaks-hundreds-of-thousands-of-records-online"
+  },
+  {
+    "count": "9,402",
+    "data":
+      "Resumes of Top Secret US military veterans names, addresses, phones, emails, Driver License numbers, passport numbers, partial SSNs",
+    "organization": "TigerSwan",
+    "url": "https://www.upguard.com/breaches/cloud-leak-tigerswan"
+  },
+  {
+    "count": "4 million",
+    "data":
+      "600 GB worth of data including usernames, emails addresses, MAC addresses, device serial numbers, and financial transaction information",
+    "organization": "Time Warner/BroadSoft",
+    "url":
+      "https://mackeepersecurity.com/post/global-communication-software-left-massive-amount-of-data-online"
+  },
+  {
+    "count": "100 MB",
+    "data":
+      "Data from internal Verizon Wireless system (DVS), 129 Outlook messages, logs, server names & info, admin usernames & passwords",
+    "organization": "Verizon",
+    "url":
+      "https://mackeepersecurity.com/post/verizon-wireless-employee-exposed-confidential-data-online"
+  },
+  {
+    "count": "14 million",
+    "data":
+      "Verizon customer names, addresses, account details, and Personal Identification Numbers (PIN)",
+    "organization": "Verizon",
+    "url": "https://www.upguard.com/breaches/verizon-cloud-leak"
+  },
+  {
+    "count": "72 files",
+    "data":
+      "Encrypted compressed archives containing backup of company's IT infrastructure and private GPG keys used to encrypt the compressed archives",
+    "organization": "Viacom",
+    "url":
+      "https://www.theregister.co.uk/2017/09/19/viacom_exposure_in_aws3_bucket_blunder/"
+  },
+  {
+    "count": "3,065,805",
+    "data":
+      "Fans names, physical addresses, email addresses, earnings, ethnicity, children\u2019s age ranges, birthdates and additional personally identifiable information",
+    "organization": "WWE",
+    "url":
+      "https://threatpost.com/leaky-wwe-database-exposes-personal-data-of-3m-wrestling-fans/126710/"
+  },
+  {
+    "count": "137+ GB",
+    "data":
+      "4 S3 buckets exposing secret API data, authentication credentials, 40,000 plaintext passwords, credentials for GCP and Azure accounts, SSL certificates, private decryption keys, production VPN keys for internal/private networks, database dumps, user IP addresses, JSESSION IDs.",
+    "organization": "Accenture",
+    "url": "https://www.upguard.com/breaches/cloud-leak-accenture"
+  },
+  {
+    "count": "316,363",
+    "data":
+      "47.5 GB PDF medical records containing weekly blood test results, patient names, addresses, and phone numbers. Development server backups. Doctor's names, case management notes, and additional client information.",
+    "organization": "Patient Home Monitoring",
+    "url":
+      "https://mackeepersecurity.com/post/patient-home-monitoring-service-leaks-private-medical-data-online"
+  },
+  {
+    "count": "50,000",
+    "data":
+      "Personal data of Australian employees of several government agencies, banks, and a utility company, including full names, passwords, IDs, phone numbers, email addresses, credit card numbers, salaries and expenses.",
+    "organization": "Australian Broadcasting Company",
+    "url":
+      "https://mackeepersecurity.com/post/australian-broadcasting-corporation-exposed-sensitive-data-online"
+  }
+]
