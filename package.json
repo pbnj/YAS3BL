@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "prettier --write */**/*.{js,css,md,json}"
   },
-  "pre-commit": ["lint"]
+  "pre-commit": ["lint"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petermbenjamin/yas3bl.git"

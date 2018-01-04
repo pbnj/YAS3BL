@@ -10,12 +10,12 @@ class App extends React.Component {
     fetch(YAS3BL)
       .then(response => response.json())
       .then(data => {
-        data.sort((a,b) => a.organization.localeCompare(b.organization))
+        data.sort((a, b) => a.organization.localeCompare(b.organization))
         this.setState({ leaks: data })
       })
       .catch(err => console.error(err))
   }
-  
+
   render() {
     const { leaks } = this.state
     return (
@@ -34,9 +34,11 @@ class App extends React.Component {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {leaks.map((l,i) => (
+            {leaks.map((l, i) => (
               <Table.Row key={i}>
-                <Table.Cell><a href={l.url}>{l.organization}</a></Table.Cell>
+                <Table.Cell>
+                  <a href={l.url}>{l.organization}</a>
+                </Table.Cell>
                 <Table.Cell>{l.count}</Table.Cell>
                 <Table.Cell>{l.data}</Table.Cell>
               </Table.Row>
