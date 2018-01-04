@@ -1,5 +1,7 @@
 # YAS3BL (Yet Another S3 Bucket Leak)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/petermbenjamin/YAS3BL.svg)](https://greenkeeper.io/)
+
 > 🔓 Enumerating all the AWS S3 bucket leaks that have been discovered to date.
 
 | Company                                         | Link                                                                                                         | Records Exposed | Data                                                                                                                                                                                                                                                                                                                                           |
