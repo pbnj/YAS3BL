@@ -19,18 +19,13 @@ type Leak struct {
 	URL          string `json:"url"`
 }
 
-// YAS3BL (yet another s3 bucket leak) is a struct that holds all leak instances
-type YAS3BL struct {
-	Leaks []Leak `json:"yas3bl"`
-}
-
 const tmpl = `# YAS3BL (Yet Another S3 Bucket Leak)
 
 > 🔓 Enumerating all the AWS S3 bucket leaks that have been discovered to date.
 
 | Company | Link | Records Exposed | Data |
 | ------- | ---- | --------------- | ---- |
-{{range .Leaks}}| <h4>{{.Organization}}</h4> | [🔗]({{.URL}}) | {{.Count}} | {{.Data}} |
+{{range .}}| <h4>{{.Organization}}</h4> | [🔗]({{.URL}}) | {{.Count}} | {{.Data}} |
 {{end}}
 `
 
@@ -66,7 +61,7 @@ a {
 				</tr>
 			</thead>
 			<tbody>
-			{{range .Leaks}}<tr>
+			{{range .}}<tr>
 				<td><a href="{{.URL}}">{{.Organization}}</a></td>
 				<td>{{.Count}}</td>
 				<td>{{.Data}}</td>
@@ -91,14 +86,14 @@ func main() {
 		log.Fatalf("could not read file: %+v\n", err)
 	}
 
-	var bucketsLeaked YAS3BL
+	var bucketsLeaked []Leak
 	err = json.Unmarshal(jsonBytes, &bucketsLeaked)
 	if err != nil {
 		log.Fatalf("could not unmarshal JSON: %+v\n", err)
 	}
 
-	sort.Slice(bucketsLeaked.Leaks, func(i, j int) bool {
-		return strings.ToUpper(bucketsLeaked.Leaks[i].Organization) < strings.ToUpper(bucketsLeaked.Leaks[j].Organization)
+	sort.Slice(bucketsLeaked, func(i, j int) bool {
+		return strings.ToUpper(bucketsLeaked[i].Organization) < strings.ToUpper(bucketsLeaked[j].Organization)
 	})
 
 	f, err := os.Create("README.md")
