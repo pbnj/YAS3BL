@@ -1,5 +1,12 @@
 [
   {
+    "count": "119,000",
+    "data":
+      "Scanned documents of US and international citizens, such as passports, driver licenses, security IDs, home addresses, phone numbers, zip codes",
+    "organization": "Fedex",
+    "url": "https://mackeepersecurity.com/post/fedex-customer-records-exposed"
+  },
+  {
     "count": "12,000",
     "data":
       "A database backup, called `octoly_production.sql`, exposed real names, addresses, phone numbers, email addresses, birth dates of thousands of influential online personalities (Instagram, Twitter, and YouTube personalities), like Dior, Lancome, and Blizzard Entertainment",

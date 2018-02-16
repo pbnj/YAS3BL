@@ -13,6 +13,7 @@
 | <h4>Department of Defense</h4> | [🔗](https://www.upguard.com/breaches/cloud-leak-centcom) | 1.8 billion | Three (3) S3 buckets containing 1.8 billion posts of scraped internet content over the last 8 years. |
 | <h4>Dow Jones</h4> | [🔗](https://www.upguard.com/breaches/cloud-leak-dow-jones) | 2.2 - 4 million | Names, addresses, account information, email addresses, and last four digits of credit card numbers of millions of subscribers to Dow Jones publications |
 | <h4>ES&amp;S</h4> | [🔗](https://www.upguard.com/breaches/cloud-leak-chicago-voters) | 1.8 million | Chicago voter names, addresses, date-of-births, partial SSNs, Driver Licenses, and state ID numbers |
+| <h4>Fedex</h4> | [🔗](https://mackeepersecurity.com/post/fedex-customer-records-exposed) | 119,000 | Scanned documents of US and international citizens, such as passports, driver licenses, security IDs, home addresses, phone numbers, zip codes |
 | <h4>Groupize</h4> | [🔗](https://mackeepersecurity.com/post/online-hotel-booking-service-allegedly-exposed-sensitive-data) | 38,000 | Credit Card numbers, expiration dates, CVV codes |
 | <h4>Mexico&#39;s Electoral Authority (INE)</h4> | [🔗](http://splinternews.com/a-massive-data-breach-exposed-personal-info-for-93-4-mi-1793856429) | 93.4 million | Mexican voter registration data |
 | <h4>National Credit Federation</h4> | [🔗](https://www.upguard.com/breaches/credit-crunch-national-credit-federation) | 111 GB | Internal personal and financial data of tens of thousands of customers. |
