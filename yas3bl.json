@@ -1,5 +1,13 @@
 [
   {
+    "count": "50,000",
+    "data":
+      "Names, phone numbers and email addresses for users and their trusted contacts, passwords, gender, information about their cars including VIN, Connect IDs.",
+    "organization": "Honda",
+    "url":
+      "https://mackeepersecurity.com/post/honda-leaked-personal-information-from-its-honda-connect-app/"
+  },
+  {
     "count": "119,000",
     "data":
       "Scanned documents of US and international citizens, such as passports, driver licenses, security IDs, home addresses, phone numbers, zip codes",
