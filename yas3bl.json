@@ -1,5 +1,13 @@
 [
   {
+    "count": "1.3 million",
+    "data":
+      "Names, addresses, zip codes, phone numbers, email addresses, ip addresses, plaintext passwords",
+    "organization": "MBM Company Inc.",
+    "url":
+      "https://mackeepersecurity.com/post/walmart-jewelry-partner-exposed-millions-customer-details"
+  },
+  {
     "count": "3.2 million",
     "data":
       "Files include access credentials for 211 system operators, email addresses for contacts and registered resources of LA County 211, and detailed call notes, including full names, phone numbers, addresses, and even 33,000 instances of full Social Security numbers.",
