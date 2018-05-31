@@ -1,5 +1,13 @@
 [
   {
+    "count": "",
+    "data":
+      "highly sensitive personal information like names, addresses, dates of birth, phone numbers, income ranges, social security numbers (SSNs), driver licenses, armed forces and voter identification cards, bank checks, insurance policy documents, health and medical information (e.g. prescriptions and dosages), and some financial data. Insurance companies found in the data included Cigna, TransAmerica, SafeCo, Schneider Insurance, Manhattan Life, Everest - to name a few.",
+    "organization": "AgentRun",
+    "url":
+      "https://www.zdnet.com/article/insurance-startup-leaks-sensitive-customer-health-data/"
+  },
+  {
     "count": "50,000",
     "data":
       "Names, phone numbers and email addresses for users and their trusted contacts, passwords, gender, information about their cars including VIN, Connect IDs.",
