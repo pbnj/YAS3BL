@@ -4,10 +4,10 @@ about: Report a new S3 leak
 
 ---
 
-Organization Affected: 
+**Organization Affected**: 
 
-Count of records exposed: 
+**Count of records exposed**: 
 
-Data Exposed: 
+**Data Exposed**: 
 
-URL to the article/disclosure:
+**URL to the article/disclosure**:
