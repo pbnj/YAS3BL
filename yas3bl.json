@@ -1,5 +1,11 @@
 [
   {
+    "count": "24,000+",
+    "data": "A 17MB Excel file containing Data Legend, GDDY Machine Raw Data, Summary, Compute, Storage, Instance Mapping, Spot, Price List sheets",
+    "organization": "GoDaddy",
+    "url": "https://www.upguard.com/breaches/public-domain-how-configuration-information-for-the-worlds-largest-domain-name-registrar-was-exposed-online"
+  },
+  {
     "count": "2,594",
     "data": "Full name, suffix, prefix, phone numbers (cell and landlines), address with house, street, city, state, zip, precinct, political affiliation provided by state, or inferred based on voting trends/history, age and birth year, gender, jurisdiction breakdown based on district, zip code, precinct, county, state, demographics based on ethnicity, language, education",
     "organization": "RoboCent",
